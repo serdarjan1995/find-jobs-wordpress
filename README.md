@@ -4,6 +4,7 @@ Wordpress 5.5.1
 
 1) Unzip `wp-contents` to your Wordpress installiation path. (You should replace your 'wp-contents')
 2) Create database and execute `bitnami_wordpress.sql`
+
 admin user creds: username: `user`      password: `123456`
 
 ---
