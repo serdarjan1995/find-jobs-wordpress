@@ -1,0 +1,252 @@
+/*
+Theme Name: Find Jobs
+Author: Sardor
+Description: Sample Design page for job seekers
+Version: 1.0.0
+*/
+
+body{
+	background-color: #efefef;
+}
+
+.background-element{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+}
+
+.background-div-green{
+	background-color: rgba(112, 251, 216, 0.3);
+	z-index: -1;
+}
+
+.background-img{
+	z-index: -2;
+	opacity: 50%;
+	object-fit: cover;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	/*background-color: rgba(255, 255, 255, 0.1);*/
+}
+
+.site-name{
+	font-family: "Times";
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+}
+
+.menu-item{
+	list-style-type: none;
+	padding-right: 50px;
+}
+
+.menu-item:last-child {
+  position: absolute;
+	right: 0;
+	padding-right: 20px;
+}
+
+.menu-item a{
+	color: #284343;
+}
+
+.menu-item a:hover{
+	color: #184143;
+	text-decoration: none;
+}
+
+.menu-item a:hover{
+  color: #184143;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 8px #28827c, 0 0 15px #28827c;
+  }
+
+  to {
+    text-shadow: 0 0 3px #fff, 0 0 8px #3ec1b9, 0 0 15px #3ec1b9;
+  }
+}
+
+.width-120{
+	width: 120px;
+	min-width: 120px!important;
+}
+
+.btn-green{
+	color: #fff;
+	background-color: #37c4bb;
+}
+
+.dropdown-menu{
+	background-color: #37c4bb;
+}
+
+.dropdown-menu a{
+	background-color: aquamarine;
+	margin: 3px 0;
+}
+
+.permalink{
+	color: #284343;
+}
+
+.permalink:hover{
+  text-decoration: none;
+	color: #284343;
+}
+
+.font-times{
+	font-family: "Times New Roman", Times, serif;
+}
+
+.header-intro{
+	color: #284343;
+	text-align: center;
+	font-size: 50px;
+}
+
+.header-intro span{
+	color: #37c4bb;
+}
+
+.search-area{
+	height: 400px;
+	display: flex;
+}
+
+.search-form{
+	width: 100%;
+}
+
+.background-white{
+	background-color: white;
+}
+
+.w-90{
+	width: 90%!important;
+}
+
+.no-border{
+	border: none;
+}
+
+.no-input-focus:focus{
+    outline: none;
+}
+
+.category-div{
+	background-color: #0a3d40;
+	padding: 7%;
+}
+
+.category-root{
+	position: absolute;
+	top: 450px;
+  width: 100%;
+}
+
+.categories{
+	list-style-type: none;
+	color: white;
+	font-size: 30px;
+  font-family: "Times";
+}
+
+.categories ul{
+	padding: 0;
+}
+
+.cat-item{
+	list-style-type: none;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.cat-item a{
+	text-decoration: none;
+	color: #558687;
+}
+
+.cat-item a:hover{
+	text-decoration: none;
+	color: #aaa;
+}
+
+.current-category{
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+}
+
+.current-category a{
+	color: #fff;
+}
+
+.selected-category-title-box{
+	color: #37c4bb;
+}
+
+.pt-110px{
+	padding-top: 110px;
+}
+
+.posts-container{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	left: -10%;
+	width: 110%;
+	/*justify-content: space-between;*/
+	align-content: flex-start;
+}
+
+.post{
+	margin: 2%;
+	min-width: 25%;
+	max-width: 25%;
+	height: 300px;
+	position: relative;
+}
+
+.post-details-widget{
+	font-size: 13px;
+	color: gray;
+}
+
+.post-author-widget{
+	position: absolute;
+	bottom: 15px;
+}
+
+.post-company-name{
+	font-weight: bold;
+}
+
+.page-numbers{
+	position: relative;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #0a3d40;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.page-numbers:hover{
+	z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+	text-decoration: none;
+}
